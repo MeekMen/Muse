@@ -55,8 +55,8 @@
 
     <div class="tabs">
       <ul class="tabmenu">
-        <li class="btn" @click="seltab(0)" :class="tabs==0 ? 'active' : ''">地点</li>
-        <li class="btn" @click="seltab(1)" :class="tabs==1 ? 'active' : ''">项目</li>
+        <li class="btn" @click="seltab(0)" :class="tabs==0 ? 'active' : ''">地 点</li>
+        <li class="btn" @click="seltab(1)" :class="tabs==1 ? 'active' : ''">项 目</li>
       </ul>
       <div class="tabcon">
         <div class="taber tab0" :class="tabs==0 ? 'show' : ''">

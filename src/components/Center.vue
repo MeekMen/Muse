@@ -69,7 +69,7 @@
               </mu-list-item>
               <p></p>
               <mu-list-item avatar button :ripple="true" to="/About">
-                <mu-list-item-title>关于</mu-list-item-title>
+                <mu-list-item-title>关于我们</mu-list-item-title>
                 <mu-list-item-action>
                   <mu-icon value="keyboard_arrow_right"></mu-icon>
                 </mu-list-item-action>

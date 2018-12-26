@@ -26,7 +26,7 @@
 
     
     <div class="about">
-      <h1>This is an about page</h1>
+      <h1>This is an about page.</h1>
       <h2>{{bottomNav}}</h2>
       <template v-for="(item, index) in intab">
         <input :type="item.type" :name='item.name' :value='item.name' @click="toggleIn(item.name,index)">
